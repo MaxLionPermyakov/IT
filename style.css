@@ -1,0 +1,288 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+section {
+    width: 1000px;
+}
+
+section:not(:first-child) {
+    margin-top: 80px;
+}
+
+li,a {
+    text-decoration: none;
+    list-style: none;
+}
+
+span {
+    color: white;
+}
+
+/* H    E   A   D   E   R */
+
+.page__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.page__nav {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 35px;
+}
+
+.nav__link {
+    color: black;
+    font-size: 14px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+/* P    R   O   M   O */
+
+.page__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section__promo {
+    background: url(/img/skyskapers.jpg) no-repeat;
+    background-size: 100% 120%;
+    height: 500px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: inset 300px 0px 1000px 50px rgb(0, 0, 0, 0.4);
+}
+
+.promo__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 70px;
+}
+
+.no-name-descp {
+    backdrop-filter: blur(2px);
+    background: linear-gradient(to top, rgb(51, 51, 51, 0.1), rgb(238, 238, 238, 0.3));
+    width: 380px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.section__title--image {
+    margin-top: 40px;
+    font-size: 42px;
+    text-shadow: 1px 1px 70px #000000;
+}
+
+.section__descp {
+    margin-top: 20px;
+    width: 500px;
+    font-size: 17px;
+    text-shadow: 1px 1px 70px #000000;
+}
+
+.button__link {
+    background-color: rgb(0, 119, 255);
+    border-radius: 100px;
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+    transition: 0.5s;
+}
+
+.button__link:hover {
+    background-color: rgb(22, 61, 255);
+    border-radius: 100px;
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+    transition: 0.5s;
+}
+
+.button__descp {
+    margin-left: 10px;
+}
+
+.arrow {
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(0, 149, 255);
+    padding: 5px 5px;
+}
+
+/* S    T   A   R   T   U   P */
+
+
+
+.section__subtitle {
+    font-size: 40px;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+.block__image img {
+    border-radius: 15px;
+}
+
+.blocks__first {
+    display: grid;
+    grid-template-columns: 300px 2fr 300px;
+    width: 1000px;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.blocks__second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    gap: 5px;
+}
+
+
+.block__info {
+    height: 250px;
+}
+
+.block {
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.block__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.block__descp {
+    width: 220px;
+}
+
+.block__descp, .block__title {
+    margin-top: 15px;
+}
+
+.block__title {
+    font-size: 18px;
+}
+
+/* F    I   N   A   N   C   E */
+
+.section__finance {
+    background-color: white;
+    width: 1900px;
+    border-radius: 100px;
+}
+
+.section__finance .section__subtitle {
+    text-align: start;
+    margin-left: 452px;
+    margin: 50px 0 50px 452px;
+}
+
+.advantage__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.radius__block img {
+    border-radius: 20px;
+}
+
+.radius__block {
+    height: 308px;
+}
+
+.radius__number {
+    background-color: rgb(0, 119, 255) ;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+
+.advantage__item {
+    width: 1000px;
+    background-color: #ffffff;
+    border: 2px solid rgb(231, 230, 230);
+    border-radius: 30px;
+}
+
+.block__advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level__startup {
+    background: url(/img/skyskapers.jfif) no-repeat;
+    background-size: 30% 80%;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    box-shadow: inset 300px 0px 1000px 50px rgb(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level__startup--container {
+    backdrop-filter: blur(5px);
+    background: linear-gradient(to top, rgb(51, 51, 51, 0.7), rgb(238, 238, 238, 0.3));
+    width: 1000px;
+    padding: 65px 120px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    margin-top: 60px;
+}
+
+.level__title--image {
+    font-size: 36px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.level__descp {
+    font-size: 14px;
+    margin-bottom: 40px;
+    width: 560px;
+}
